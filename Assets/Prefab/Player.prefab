@@ -160,8 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85bb0d27fd394c28a53d372adb84f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 5
   numLives: 1
+  invincibilityTimeout: 5
   isAlive: 1
   respawnHealthPoints: 1
   LevelToLoad: Enemy Test Scene

@@ -7,6 +7,8 @@ public class Health : MonoBehaviour
 {
 	public int health;
 	public int numLives;
+	public int invincibilityTimeout;
+	private float damageTime = 0;
 	public bool isAlive = true;
 	public int respawnHealthPoints;
 	private Vector2 respawnPosition;
@@ -15,6 +17,7 @@ public class Health : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
+		Debug.Log("START");
 		respawnPosition = transform.position;
 
 		if(LevelToLoad == "") {
@@ -45,7 +48,16 @@ public class Health : MonoBehaviour
 		}
 	}
 	public void damageHealth(int damage) {
-		health -= damage;
+		if(Time.time - damageTime > invincibilityTimeout) {
+			health -= damage;
+			damageTime = Time.time;
+		} else {
+			Debug.Log("PLAYER STILL INVINCIBLE" + health);
+		}
+
+		if(health <= 0) {
+			Debug.Log("YOU DIED");
+		}
 	}
 
 	public void heal(int healing) {
