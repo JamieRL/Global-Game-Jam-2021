@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// From https://learn.unity.com/tutorial/live-session-2d-platformer-character-controller
+
 public class PlayerPlatformerController : PhysicsObject {
 
     public float maxSpeed = 7;
