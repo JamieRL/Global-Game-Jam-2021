@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 995212902409636965}
   - component: {fileID: 995212902409636964}
   - component: {fileID: 995212902409636960}
+  - component: {fileID: -5612264585634604681}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -147,3 +148,20 @@ MonoBehaviour:
   gravityModifier: 1
   maxSpeed: 7
   jumpTakeOffSpeed: 7
+--- !u!114 &-5612264585634604681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995212902409636987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85bb0d27fd394c28a53d372adb84f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  numLives: 1
+  isAlive: 1
+  respawnHealthPoints: 1
+  LevelToLoad: Enemy Test Scene
