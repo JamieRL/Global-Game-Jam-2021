@@ -51,8 +51,6 @@ public class Health : MonoBehaviour
 		if(Time.time - damageTime > invincibilityTimeout) {
 			health -= damage;
 			damageTime = Time.time;
-		} else {
-			Debug.Log("PLAYER STILL INVINCIBLE" + health);
 		}
 
 		if(health <= 0) {

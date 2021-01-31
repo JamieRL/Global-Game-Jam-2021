@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 16596144614083259}
   - component: {fileID: 16596144614083239}
   - component: {fileID: -4841977360129873531}
+  - component: {fileID: 958283075640119763}
   m_Layer: 0
   m_Name: Chaser
   m_TagString: Untagged
@@ -123,9 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e700f8e38c941cb82e96cb9abb68b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   speed: 1
-  minFollowDistance: 0
+  maxFollowDistance: 4
+  isChasing: 0
+  hasTriggerRadius: 1
 --- !u!50 &16596144614083239
 Rigidbody2D:
   serializedVersion: 4
@@ -141,12 +143,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &-4841977360129873531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,3 +162,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+--- !u!58 &958283075640119763
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16596144614083238}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.6110702
