@@ -18,6 +18,7 @@ public class CharacterController2D : MonoBehaviour
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
+	private Animator animator;
 
 	[Header("Events")]
 	[Space]
@@ -32,6 +33,7 @@ public class CharacterController2D : MonoBehaviour
 
 	private void Awake()
 	{
+		animator = GetComponent<Animator>();
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
 		if (OnLandEvent == null)
@@ -137,6 +139,8 @@ public class CharacterController2D : MonoBehaviour
 				m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x ,0);
 			}
 		}
+
+		animator.SetBool("isJumping", !m_Grounded);
 	}
 
 
