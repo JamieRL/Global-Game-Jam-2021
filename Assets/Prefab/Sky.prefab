@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 877858091675210338}
   - component: {fileID: 877858091675210339}
   - component: {fileID: 877858091675210336}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ejection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,8 +87,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56683621
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 22bcc7afbffb24988b435211c4ba9031, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 877858092057088046}
   - component: {fileID: 877858092057088044}
   - component: {fileID: 877858092057088047}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,8 +170,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56683621
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 4b3422871a2254a7aa87f66e7c634849, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -212,7 +212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 877858092115833261}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 877858092820883896}
   - component: {fileID: 877858092820883897}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BackgroundSky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,8 +302,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56683621
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c9565ce61e82b4962bc529150610e742, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
