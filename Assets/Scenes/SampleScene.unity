@@ -467,7 +467,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 56683621
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -600,7 +600,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 56683621
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 4b3422871a2254a7aa87f66e7c634849, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -770,6 +770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671138974}
   - component: {fileID: 1671138975}
+  - component: {fileID: 1671138976}
   m_Layer: 11
   m_Name: BackgroundSky
   m_TagString: Untagged
@@ -829,7 +830,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 56683621
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c9565ce61e82b4962bc529150610e742, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -842,3 +843,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1671138976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671138973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7e7a9934355194aa7a479d41c76b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
