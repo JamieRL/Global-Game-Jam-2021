@@ -110,6 +110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4432922743934885569}
+  - component: {fileID: 2200004238379435045}
   m_Layer: 11
   m_Name: Sky
   m_TagString: Untagged
@@ -128,10 +129,23 @@ Transform:
   m_LocalPosition: {x: -1.904067, y: 5.1741905, z: -6.976285}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4432922743976689474}
   - {fileID: 4432922744705992404}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2200004238379435045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4432922743934885568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7e7a9934355194aa7a479d41c76b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4432922743976689485
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,11 +172,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4432922743976689485}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 7.13, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.944067, y: -2.3221905, z: 6.976285}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children:
   - {fileID: 4432922743561387278}
-  m_Father: {fileID: 4432922744705992404}
+  m_Father: {fileID: 4432922743934885569}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4432922743976689472
@@ -261,11 +275,10 @@ Transform:
   m_GameObject: {fileID: 4432922744705992407}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.904067, y: -5.1741905, z: 6.976285}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
-  m_Children:
-  - {fileID: 4432922743976689474}
+  m_LocalScale: {x: 2, y: 0.5, z: 1}
+  m_Children: []
   m_Father: {fileID: 4432922743934885569}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4432922744705992405
 SpriteRenderer:
@@ -324,7 +337,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4432922744705992407}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf7e7a9934355194aa7a479d41c76b99, type: 3}
   m_Name: 
