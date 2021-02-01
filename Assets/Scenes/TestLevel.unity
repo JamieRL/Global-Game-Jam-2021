@@ -1097,5 +1097,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chaser
       objectReference: {fileID: 0}
+    - target: {fileID: 16596144614083258, guid: 16321e8f43c094bd7857b5b65b7b683b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16596144614083259, guid: 16321e8f43c094bd7857b5b65b7b683b,
+        type: 3}
+      propertyPath: isChasing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 16596144614083259, guid: 16321e8f43c094bd7857b5b65b7b683b,
+        type: 3}
+      propertyPath: hasTriggerRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 16596144614083259, guid: 16321e8f43c094bd7857b5b65b7b683b,
+        type: 3}
+      propertyPath: maxFollowDistance
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16321e8f43c094bd7857b5b65b7b683b, type: 3}
