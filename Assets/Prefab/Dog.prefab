@@ -231,18 +231,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_JumpForce: 700
-  m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 3383
+    m_Bits: 2359
   m_GroundCheck: {fileID: 1756645605}
   m_CeilingCheck: {fileID: 1445903881}
-  m_CrouchDisableCollider: {fileID: 0}
   OnLandEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
