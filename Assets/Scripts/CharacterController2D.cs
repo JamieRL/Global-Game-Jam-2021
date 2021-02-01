@@ -140,6 +140,7 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 
+		animator.setFloat("velocityX", Mathf.Abs(m_Rigidbody2D.velocity.x));
 		animator.SetBool("isJumping", !m_Grounded);
 	}
 
