@@ -41,6 +41,9 @@ TagManager:
   - name: Background
     uniqueID: 56683621
     locked: 0
+  - name: MidGround1
+    uniqueID: 4281191363
+    locked: 0
   - name: Player
     uniqueID: 3217246317
     locked: 0
