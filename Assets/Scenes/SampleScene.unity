@@ -274,7 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 245911313}
   - component: {fileID: 245911312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundSquare1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -621,7 +621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 459123682}
   - component: {fileID: 459123681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundSquare1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -919,7 +919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 596041680}
   - component: {fileID: 596041681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundLong1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1210,6 +1210,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundBlack
       objectReference: {fileID: 0}
+    - target: {fileID: 4939196481079446737, guid: 88199837affcb42dda47a39f0a83f7c1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88199837affcb42dda47a39f0a83f7c1, type: 3}
 --- !u!1 &824044386
@@ -1309,7 +1314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1014880947}
   - component: {fileID: 1014880948}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundSquare2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1396,7 +1401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1038729951}
   - component: {fileID: 1038729950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundLong2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1509,7 +1514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131774954}
   - component: {fileID: 1131774955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundSquare2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1596,7 +1601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1195771268}
   - component: {fileID: 1195771269}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1611,7 +1616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195771267}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.42, y: -2.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1740557920}
@@ -1626,81 +1631,33 @@ EdgeCollider2D:
   m_GameObject: {fileID: 1195771267}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 2c5e2accd49dc4e289aff8545e8314bf, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -77.68454, y: -2.2117329}
-  - {x: -10.990376, y: -2.317591}
-  - {x: -9.672714, y: -2.2770896}
-  - {x: -7.0929437, y: -2.252233}
-  - {x: -5.569021, y: -2.2906458}
-  - {x: -4.7967544, y: -2.259429}
-  - {x: -4.5644984, y: -2.106362}
-  - {x: -4.503765, y: -1.9816667}
-  - {x: -4.586816, y: -0.8299014}
-  - {x: -3.1609852, y: -0.8172922}
-  - {x: -2.8013647, y: -0.7940694}
-  - {x: -2.6601734, y: -0.39831546}
-  - {x: -2.6674294, y: 0.009110495}
-  - {x: -2.6223388, y: 0.2657888}
-  - {x: -1.6497076, y: 0.3497246}
-  - {x: -1.0514448, y: 0.3069297}
-  - {x: -0.6416586, y: 0.4954638}
-  - {x: -0.14052677, y: 0.8768791}
-  - {x: 0.40407667, y: 1.4027251}
-  - {x: 0.8391252, y: 1.6022205}
-  - {x: 1.2450125, y: 1.9883871}
-  - {x: 1.3838613, y: 2.1787424}
-  - {x: 1.6036365, y: 2.17804}
-  - {x: 1.7461071, y: 2.3468847}
-  - {x: 1.8677754, y: 2.4629018}
-  - {x: 2.087585, y: 2.440463}
-  - {x: 2.3081176, y: 2.5306954}
-  - {x: 2.4471514, y: 2.7557898}
-  - {x: 2.3470752, y: 3.053936}
-  - {x: 2.3765073, y: 3.7326202}
-  - {x: 2.6111362, y: 3.7421508}
-  - {x: 2.9091678, y: 3.65945}
-  - {x: 3.5092337, y: 3.7367144}
-  - {x: 3.7405822, y: 3.6635919}
-  - {x: 4.0965395, y: 3.7693315}
-  - {x: 4.4321404, y: 3.763287}
-  - {x: 4.9709063, y: 3.653707}
-  - {x: 6.2949195, y: 3.66748}
-  - {x: 6.762864, y: 3.4716096}
-  - {x: 8.467609, y: 3.200932}
-  - {x: 10.709026, y: 2.7561283}
-  - {x: 15.978938, y: 1.7994345}
-  - {x: 20.363321, y: 1.0447813}
-  - {x: 20.339333, y: 0.5894172}
-  - {x: 20.246555, y: 0.049066663}
-  - {x: 20.169437, y: -0.64247346}
-  - {x: 19.89071, y: -0.8725639}
-  - {x: 19.539902, y: -0.8934837}
-  - {x: 16.69201, y: -0.9558327}
-  - {x: 12.417686, y: -0.9388595}
-  - {x: 8.812112, y: -0.9377221}
-  - {x: 5.0652037, y: -0.9359372}
-  - {x: 2.8887491, y: -0.9180478}
-  - {x: 2.067096, y: -1.6389945}
-  - {x: 2.0852215, y: -2.232777}
-  - {x: 3.591581, y: -2.2644792}
-  - {x: 3.601755, y: -2.6676197}
-  - {x: 3.6726866, y: -2.7618701}
-  - {x: 7.77556, y: -2.7820773}
-  - {x: 9.281831, y: -2.7854989}
-  - {x: 11.181578, y: -2.789012}
-  - {x: 15.185251, y: -2.7727926}
-  - {x: 17.476578, y: -2.777412}
-  - {x: 25.929268, y: -2.8111422}
-  - {x: 30.55007, y: -2.7425199}
-  - {x: 32.440063, y: -2.6835828}
-  - {x: 32.54703, y: -3.4430275}
-  - {x: 113.7661, y: -3.8063354}
+  - {x: -0.5, y: 0}
+  - {x: 5.7560415, y: 0.0012927055}
+  - {x: 5.759969, y: 1.3854264}
+  - {x: 7.8010406, y: 1.3895732}
+  - {x: 7.8002653, y: 2.493126}
+  - {x: 9.500973, y: 2.4920192}
+  - {x: 12.922348, y: 4.8830495}
+  - {x: 12.92553, y: 5.8274035}
+  - {x: 16.56157, y: 5.823275}
+  - {x: 30.51213, y: 3.2072735}
+  - {x: 30.33968, y: 1.3851681}
+  - {x: 13.522198, y: 1.3770726}
+  - {x: 12.810295, y: 0.8715769}
+  - {x: 12.459614, y: -0.13015568}
+  - {x: 13.851567, y: -0.13593781}
+  - {x: 13.831215, y: -0.5099062}
+  - {x: 42.75779, y: -0.57550585}
+  - {x: 42.64552, y: -8.108582}
+  - {x: -0.100494385, y: -8.33665}
+  - {x: -0.4815941, y: -0.07011509}
 --- !u!1 &1247404803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,7 +1668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247404804}
   - component: {fileID: 1247404805}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundLong1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1874,12 +1831,12 @@ PrefabInstance:
     - target: {fileID: 6108910111856937014, guid: f066692d9336a4df3864bc93dfe3e45d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9
+      value: 10.4
       objectReference: {fileID: 0}
     - target: {fileID: 6108910111856937014, guid: f066692d9336a4df3864bc93dfe3e45d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: 4.35
       objectReference: {fileID: 0}
     - target: {fileID: 6108910111856937014, guid: f066692d9336a4df3864bc93dfe3e45d,
         type: 3}
@@ -1969,7 +1926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437146861}
   - component: {fileID: 1437146862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundSquare2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2248,6 +2205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundBlack (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4939196481079446737, guid: 88199837affcb42dda47a39f0a83f7c1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88199837affcb42dda47a39f0a83f7c1, type: 3}
 --- !u!4 &1686486606 stripped
@@ -2333,6 +2295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundBlack (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4939196481079446737, guid: 88199837affcb42dda47a39f0a83f7c1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88199837affcb42dda47a39f0a83f7c1, type: 3}
 --- !u!1 &1740557919
@@ -2344,7 +2311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1740557920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2476,7 +2443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1833625380}
   - component: {fileID: 1833625381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundLong1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2670,7 +2637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2116224035}
   - component: {fileID: 2116224034}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundLong2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

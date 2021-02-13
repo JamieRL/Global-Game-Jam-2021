@@ -10,7 +10,6 @@ public class MovingPlatform : MonoBehaviour
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log("Player on the platform");
 		if(other.gameObject.tag == "Player") {
 			other.transform.parent = transform;
 		}

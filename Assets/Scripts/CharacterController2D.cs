@@ -55,6 +55,18 @@ public class CharacterController2D : MonoBehaviour
 					OnLandEvent.Invoke();
 			}
 		}
+
+		LayerMask mask = LayerMask.GetMask("Ground");
+
+		if(m_Grounded) {
+			RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 20.0f, mask);
+			Vector3 movementDirection = Vector3.Cross(hit.normal, new Vector3(0, 0, 1));
+			float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
+			transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+		} else {
+			Quaternion target = Quaternion.Euler(0, 0, 0);
+			transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 10.0f);
+		}
 	}
 
 
@@ -84,7 +96,6 @@ public class CharacterController2D : MonoBehaviour
 		// If the player should jump...
 		if (m_Grounded && jump)
 		{
-			Debug.Log("going to jump now");
 			// Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));

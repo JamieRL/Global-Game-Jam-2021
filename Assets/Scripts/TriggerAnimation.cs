@@ -22,8 +22,6 @@ public class TriggerAnimation : MonoBehaviour
 	}
 
 	void OnTriggerEnter2D(Collider2D collision) {
-		Debug.Log("TRIGGERED");
-
 		if(collision.gameObject == triggeringObject) {
 			animator.SetBool("activate", true);
 		} else {

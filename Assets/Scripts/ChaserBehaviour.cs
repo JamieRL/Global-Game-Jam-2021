@@ -15,11 +15,8 @@ public class ChaserBehaviour : MonoBehaviour
 	private Rigidbody2D rigidBody;
 
 	void OnTriggerEnter2D(Collider2D collision) {
-		Debug.Log("Trigger enterred ");
 		if(collision.gameObject.tag == "Player") {
-			Debug.Log("Player has enterred trigger");
 			if(!target) {
-				Debug.Log("assigning target");
 				target = GameObject.FindWithTag("Player").transform;
 				isChasing = true;
 				isReturning = false;
@@ -28,7 +25,6 @@ public class ChaserBehaviour : MonoBehaviour
 	}
 
 	void followTarget() {
-		Debug.Log("Follow target");
 		Vector2 targetDirection = target.position - transform.position;
 		float distance = Vector2.Distance(transform.position, target.position);
 
